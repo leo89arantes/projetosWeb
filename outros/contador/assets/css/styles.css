@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1A535C;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background-color: #F7FFF7;
+    color: red;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+.contador {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.grupo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 75%;
+    padding: 1.3rem 1.3rem;
+    border: 1px solid lightgray;
+    border-radius: 4%;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #086788;
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    color: #FFF1F0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFF1F0;
+}
+
+footer a:hover {
+    color: rgb(160, 160, 160);
+    transition: all 0.4s ease;
+}
+
+@media (max-width: 1024px) {
+    .contador {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .contador {
+        width: 90%;
+    }
+
+    .grupo {
+        width: 95%;
+        border: 1px solid transparent;
+    }
+}
